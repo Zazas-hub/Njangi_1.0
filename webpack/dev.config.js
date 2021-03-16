@@ -29,7 +29,6 @@ module.exports = webpackMerge(webpackCommon, {
   },
 
   module: {
-
     rules: [
       {
         test: /\.s?css$/,
@@ -54,7 +53,6 @@ module.exports = webpackMerge(webpackCommon, {
         ]
       }
     ]
-
   },
 
   plugins: [
